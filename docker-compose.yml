@@ -1,0 +1,38 @@
+version: '3.9'
+services:
+  mlflow:
+    build:
+      context: .
+      dockerfile: Dockerfile.mlflow
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./mlruns:/app/mlruns
+      - ./mlflow.db:/app/mlflow.db
+
+  flight-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.main
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mlflow
+
+  gen-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.gen
+    ports:
+      - "8501:8501"
+    depends_on:
+      - mlflow
+
+  travel-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.travel
+    ports:
+      - "8601:8601"
+    depends_on:
+      - mlflow

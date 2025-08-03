@@ -1,0 +1,10 @@
+# For Gen_app.py (Streamlit)
+FROM python:3.10
+
+WORKDIR /app
+COPY . /app
+
+RUN pip install --no-cache-dir -r requirements.txt
+EXPOSE 8502
+
+CMD ["streamlit", "run", "Travel_app.py", "--server.port=8502", "--server.headless=true"]

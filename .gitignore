@@ -1,0 +1,25 @@
+# Python cache and environment
+__pycache__
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data (if sensitive / large)
+MLOPS Project/Data
+
+# Model files (optional, if large)
+MLOPS Project/saved_models
+
+# MLflow local tracking
+mlruns/
+mlflow.db
+
+# Docker stuff
+*.pid
