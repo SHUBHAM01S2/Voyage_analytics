@@ -1,29 +1,25 @@
+
+
 ```markdown
 # 🚀 Voyage Analytics
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![Docker](https://img.shields.io/badge/Docker-Enabled-blue?logo=docker)
-![MLflow](https://img.shields.io/badge/MLflow-Tracking-orange?logo=mlflow)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey)
-![Status](https://img.shields.io/badge/Status-Active-success)
-
-Voyage Analytics is a Machine Learning & MLOps project designed to predict flight prices, recommend travel options, and classify travel-related data using advanced ML models. It integrates **MLflow** for experiment tracking, **Docker** for containerization, and provides both **REST API** (FastAPI/Flask) and **Streamlit** interfaces for user interaction.
+Voyage Analytics is a Machine Learning & MLOps project designed to predict flight prices, recommend travel options, and classify travel-related data using advanced ML models.  
+It integrates **MLflow** for experiment tracking, **Docker** for containerization, and provides both **REST API** (FastAPI/Flask) and **Streamlit** interfaces for user interaction.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Programming Language:** Python 3.10  
-- **Data Processing:** pandas, numpy  
-- **Machine Learning:** scikit-learn, xgboost  
-- **Visualization:** matplotlib, seaborn  
-- **Natural Language Processing:** nltk  
-- **MLOps:** mlflow  
-- **APIs & Web Frameworks:** fastapi, flask  
-- **Deployment & Serving:** uvicorn, python-multipart  
-- **Frontend:** streamlit  
-- **Containerization:** Docker  
+- **Programming Language:** Python 3.10
+- **Data Processing:** pandas, numpy
+- **Machine Learning:** scikit-learn, xgboost
+- **Visualization:** matplotlib, seaborn
+- **Natural Language Processing:** nltk
+- **MLOps:** mlflow
+- **APIs & Web Frameworks:** fastapi, flask
+- **Deployment & Serving:** uvicorn, python-multipart
+- **Frontend:** streamlit
+- **Containerization:** Docker
 
 ---
 
@@ -40,18 +36,18 @@ Voyage\_Analytics/
 │
 ├── Notebooks/                    # Jupyter Notebooks for EDA & Model Training
 │
-├── saved\_models/                # Trained Models
+├── saved\_models/                  # Trained Models
 │
-├── templates/                   # HTML Templates
+├── templates/                     # HTML Templates
 │
-├── flight\_price\_mlflow\.py       # Flight price prediction with MLflow tracking
-├── Travel\_app.py               # Travel recommendation logic
-├── Gen\_app.py                 # Generative AI application logic
-├── main.py                     # Entry point
+├── flight\_price\_mlflow\.py         # Flight price prediction with MLflow tracking
+├── Travel\_app.py                   # Travel recommendation logic
+├── Gen\_app.py                      # Generative AI application logic
+├── main.py                         # Entry point
 │
-├── requirements.txt            # Python dependencies
-├── docker-compose.yml         # Docker multi-container setup
-├── Dockerfile.mlflow          # MLflow container setup
+├── requirements.txt                # Python dependencies
+├── docker-compose.yml              # Docker multi-container setup
+├── Dockerfile.mlflow               # MLflow container setup
 ├── README.md
 
 ````
@@ -71,7 +67,6 @@ Voyage\_Analytics/
    ```bash
    python3 -m venv venv
    source venv/bin/activate  # Linux/Mac
-   # or
    venv\Scripts\activate     # Windows
    ```
 
@@ -103,26 +98,26 @@ docker-compose up --build
 docker run -d --name mlflow-server -p 5000:5000 shubham01s2/mlflow-server:v1
 ```
 
-Access the MLflow UI at: `http://localhost:5000`
+Access MLflow UI at: [http://localhost:5000](http://localhost:5000)
 
 ---
 
 ## 🌟 Features
 
-* ✈ **Flight Price Prediction** using XGBoost
-* 🏨 **Hotel Recommendation**
-* 🗺 **Travel Recommendation Engine**
-* 📊 **MLflow Experiment Tracking**
-* 🐳 **Dockerized Deployment**
-* 🎨 **Streamlit & HTML Frontend**
-* ⚡ **FastAPI & Flask API Endpoints**
+* ✈ Flight Price Prediction using XGBoost
+* 🏨 Hotel Recommendation
+* 🗺 Travel Recommendation Engine
+* 📊 MLflow Experiment Tracking
+* 🐳 Dockerized Deployment
+* 🎨 Streamlit & HTML Frontend
+* ⚡ FastAPI & Flask API Endpoints
 * 📂 Organized MLOps-ready project structure
 
 ---
 
 ## 📌 Example
 
-Flight price prediction with MLflow logging:
+Flight price prediction model with MLflow logging:
 
 ```python
 mlflow.set_tracking_uri("http://localhost:5000")
@@ -137,3 +132,11 @@ mlflow.set_experiment("flight_price_prediction")
 [LinkedIn Profile](https://www.linkedin.com/in/shubham-sharma611/)
 
 ---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+```
+
+```
