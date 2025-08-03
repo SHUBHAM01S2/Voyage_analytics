@@ -1,13 +1,7 @@
-```
-```markdown
-# 🚀 Voyage Analytics  
+---
 
-![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python)
-![Docker](https://img.shields.io/badge/Docker-Enabled-blue?logo=docker)
-![MLflow](https://img.shields.io/badge/MLflow-Tracking-orange?logo=mlflow)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Platform](https://img.shields.io/badge/Platform-Linux%20%7C%20Windows-lightgrey)
-![Status](https://img.shields.io/badge/Status-Active-success)
+```markdown
+# 🚀 Voyage Analytics
 
 Voyage Analytics is a Machine Learning & MLOps project designed to predict flight prices, recommend travel options, and classify travel-related data using advanced ML models.  
 It integrates **MLflow** for experiment tracking, **Docker** for containerization, and provides both **REST API** (FastAPI/Flask) and **Streamlit** interfaces for user interaction.
@@ -16,16 +10,16 @@ It integrates **MLflow** for experiment tracking, **Docker** for containerizatio
 
 ## 🛠 Tech Stack
 
-- **Programming Language:** Python 3.10  
-- **Data Processing:** pandas, numpy  
-- **Machine Learning:** scikit-learn, xgboost  
-- **Visualization:** matplotlib, seaborn  
-- **Natural Language Processing:** nltk  
-- **MLOps:** mlflow  
-- **APIs & Web Frameworks:** fastapi, flask  
-- **Deployment & Serving:** uvicorn, python-multipart  
-- **Frontend:** streamlit  
-- **Containerization:** Docker  
+- **Programming Language:** Python 3.10
+- **Data Processing:** pandas, numpy
+- **Machine Learning:** scikit-learn, xgboost
+- **Visualization:** matplotlib, seaborn
+- **Natural Language Processing:** nltk
+- **MLOps:** mlflow
+- **APIs & Web Frameworks:** fastapi, flask
+- **Deployment & Serving:** uvicorn, python-multipart
+- **Frontend:** streamlit
+- **Containerization:** Docker
 
 ---
 
@@ -62,9 +56,9 @@ Voyage\_Analytics/
 
 ## ⚙️ Installation
 
-1️⃣ Clone the repository:  
+1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/<your-username>/Voyage_Analytics.git
+git clone https://github.com/shubham01s2/Voyage_Analytics.git
 cd Voyage_Analytics
 ````
 
@@ -144,5 +138,3 @@ mlflow.set_experiment("flight_price_prediction")
 This project is licensed under the MIT License.
 
 ```
-
----
