@@ -1,4 +1,5 @@
-```
+
+``` markdown
 # 🚀 Voyage Analytics
 
 Voyage Analytics is a Machine Learning & MLOps project designed to predict flight prices, recommend travel options, and classify travel-related data using advanced ML models.  
