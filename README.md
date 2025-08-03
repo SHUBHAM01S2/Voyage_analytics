@@ -1,5 +1,4 @@
 ```
-```markdown
 # 🚀 Voyage Analytics
 
 Voyage Analytics is a Machine Learning & MLOps project designed to predict flight prices, recommend travel options, and classify travel-related data using advanced ML models.  
@@ -136,5 +135,4 @@ mlflow.set_experiment("flight_price_prediction")
 
 This project is licensed under the MIT License.
 
-```
 ```
